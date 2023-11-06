@@ -5,46 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="image/Phantom_Thieves_Logo.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+      /* Custom CSS to limit image size to the paragraph size */
+      .paragraph-with-image {
+          display: flex;
+          flex-wrap: wrap;
+      }
+
+      .paragraph-with-image p {
+          flex: 1; /* Allow the paragraph to expand to the available space */
+      }
+
+      .paragraph-with-image img {
+          max-width: 100%; /* Limit the image's width to the width of the parent container */
+          height: auto; /* Maintain the image's aspect ratio */
+      }
+  </style>
     <title>Persona Fan-Site</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand bg-secondary text-info">
-    
-       <a class="text-white navbar-brand-sm link-underline-opacity-0 mb-0 h1" href="index.html">Persona Fansite</a> 
-       <ul class="navbar-nav ">
-        <li class="nav-item"><a class=" nav-link text-info mb-0 h4" href="#">Giochi</a></li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle dropstart mb-0 h4" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+  <nav class="navbar navbar-expand-sm navbar-light bg-secondary">
+    <div class="container-fluid ">
+      <a class="navbar-brand h1 mb-0 text-light" href="index.html">Persona Fan-Site</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active  text-light " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Giochi
             </a>
-            <ul class="dropdown-menu" >
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="persona3.html">Persona 3</a></li>
               <li><a class="dropdown-item" href="persona4.html">Persona 4</a></li>
               <li><a class="dropdown-item" href="persona5.html">Persona 5</a></li>
             </ul>
           </li>
-       </ul>
-    </nav>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-
+  <div class="row m-3 col-12">
     
-    <div class="container col-12">
+    <div class="container col-12 col-lg-8">
+
+      <h4>Introduzione</h4>
+      <p>Benvenuti nel mondo affascinante di <span class="font-weight-bold">Persona</span>, la straordinaria saga videoludica creata da <span class="font-weight-bold">Atlus</span> che ha affascinato milioni di giocatori in tutto il mondo. Questo sito è un omaggio appassionato e un punto di ritrovo per tutti i fan devoti di <span class="font-weight-bold">Persona</span>.</p>
+
+      <p>Qui potrete immergervi nei misteri, nella narrativa complessa e nei personaggi indimenticabili che rendono questa serie così unica. Dal suo esordio con "<span class="font-weight-bold">Shin Megami Tensei: Persona</span>" nel lontano 1996, la serie <span class="font-weight-bold">Persona</span> ha continuato a crescere e a evolversi, diventando un'icona dei giochi di ruolo giapponesi.</p>
+
+      <p>I legami sociali, le ombre misteriose, e le scelte morali complesse sono solo alcune delle caratteristiche che rendono ogni capitolo di <span class="font-weight-bold">Persona</span> un'esperienza straordinaria e coinvolgente. In questo spazio, esploreremo ogni aspetto di <span class="font-weight-bold">Persona</span>, dai giochi principali alle varie spin-off ai <span class="font-weight-bold">Personaggi</span> di questa serie che hanno conquistato i cuori dei giocatori di tutto il mondo.</p>
+
+      <p>Siete pronti a entrare nel mondo di <span class="font-weight-bold">Persona</span> e a connettervi con altri appassionati? Allora preparatevi a scoprire il potere dei vostri legami sociali, ad affrontare le vostre ombre interiori e a immergervi nell'universo unico di <span class="font-weight-bold">Persona</span>!</p>
+
+      <div class="mt-5">
         <div class="row justify-content-center text-center">
-            <div class="mt-5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><img src="image/Levelup_joker.webp" alt="Itadori" class="img-fluid mb-2"><h3>Joker</h3>I'll show your true form</div>
-            <div class="mt-5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><img src="image/Levelup_joker.webp" alt="Itadori" class="img-fluid mb-2"><h3>Joker</h3>I'll show your true form</div>
-            <div class="mt-5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><img src="image/Levelup_joker.webp" alt="Itadori" class="img-fluid mb-2"><h3>Joker</h3>I'll show your true form</div>
-            <div class="mt-5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><img src="image/Levelup_joker.webp" alt="Itadori" class="img-fluid mb-2"><h3>Joker</h3>I'll show your true form</div>
-            <div class="mt-5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><img src="image/Levelup_joker.webp" alt="Itadori" class="img-fluid mb-2"><h3>Joker</h3>I'll show your true form</div>
-            <div class="mt-5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><img src="image/Levelup_joker.webp" alt="Itadori" class="img-fluid mb-2"><h3>Joker</h3>I'll show your true form</div>
-            <div class="mt-5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><img src="image/Levelup_joker.webp" alt="Itadori" class="img-fluid mb-2"><h3>Joker</h3>I'll show your true form</div>
-            <div class="mt-5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><img src="image/Levelup_joker.webp" alt="Itadori" class="img-fluid mb-2"><h3>Joker</h3>I'll show your true form</div>
-            <div class="mt-5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><img src="image/Levelup_joker.webp" alt="Itadori" class="img-fluid mb-2"><h3>Joker</h3>I'll show your true form</div>
-            <div class="mt-5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><img src="image/Levelup_joker.webp" alt="Itadori" class="img-fluid mb-2"><h3>Joker</h3>I'll show your true form</div>
-            <div class="mt-5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><img src="image/Levelup_joker.webp" alt="Itadori" class="img-fluid mb-2"><h3>Joker</h3>I'll show your true form</div>
-            <div class="mt-5 col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"><img src="image/Levelup_joker.webp" alt="Itadori" class="img-fluid mb-2"><h3>Joker</h3>I'll show your true form</div>
+            <div class="col-12 col-md-4"><a href="persona3.html"><img src="image/Levelup_joker.webp" alt="Itadori" class="img-fluid mb-2"></a><h5>Persona 3</h5></div>
+            <div class="col-12 col-md-4"><a href="persona4.html"><img src="image/Levelup_joker.webp" alt="Itadori" class="img-fluid mb-2"></a><h5>Persona 4</h5></div>
+            <div class="col-12 col-md-4"><a href="persona5.html"><img src="image/Levelup_joker.webp" alt="Itadori" class="img-fluid mb-2"></a><h5>Persona 5</h5></div>
+            
         </div>
     </div>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <div class="container col-12 col-lg-4">
+      <img src="image\personaCOVER.jpg" alt="personacover" class="img-fluid rounded">
+      <div class="alert alert-success rounded mt-3" role="alert">
+        Questo sito è sviluppato da uno studente principiante! Siate pazienti con i giudizi, grazie.
+    </div>
+    </div>
+  </div>
+
+  
+    
 </body>
 </html>
